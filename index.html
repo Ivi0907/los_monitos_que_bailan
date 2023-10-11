@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+    <title>Aplicación de identificación de sonido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-17 header_div text-center">
+      <h2>Aliens controlados por sonido</h2>
+      <p>Nota: Haz diferentes sonidos como aplausos, maullidos o awita para hacer bailar a los aliens.
+      </p>
+    </div>
+
+    <div class="main_div">
+      <center>
+        
+        <button onclick="startClassification()" class="btn btn-warning">iniciar</button>
+        <h3 id="result_nombre">Nombre:</h3>
+        
+        <h3 id="result_label">Escucho:</h3>
+        <h4 id="result_confidence">Presición</h4>
+          
+          <img src="aliens-01.png" id="alien1" width="300" height="300">
+          <img src="aliens-02.png" id="alien2" width="300" height="300">
+          <img src="aliens-03.png" id="alien3" width="300" height="300">
+          <img src="aliens-04.png" id="alien4" width="300" height="300">
+      </center>
+    </div>
+
+    <div class="copy_right_footer"> Creado por el equipo de Byjus Future School </div>
+      
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
